@@ -1,8 +1,43 @@
 {
-    "name": "Chih Hsuan(Maggie) Chang",
-    "recentLocation": "Falls Church, VA",
-    "githubLink":"https://github.com/maggieChangFun",
-    "phobeNumber":"(408)402-1302",
-    "email":"maggiechang.w@gmail.com",
-    "summary":"Computer Engineering Master’s student with 4 years Full Stack software development industry experience based on Java, Spring boot and JavaScript as well as a solid background in mathematics. "
+    "contact":{
+        "name": "Maggie Chang",
+        "recentLocation": "Falls Church, VA",
+        "githubLink":"https://github.com/maggieChangFun",
+        "linkedin":"https://www.linkedin.com/in/chih-hsuan-maggie/",
+        "email":"maggiechang.w@gmail.com",
+        "summary":"Computer Engineering Master’s student with 4 years Full Stack software development industry experience based on Java, Spring boot and JavaScript as well as a solid background in mathematics. "
+    },
+    "experiences":{
+        "job1":{
+            "title":"Software Engineer Intern",
+            "company":"Amazon",
+            "location":"Bellevue, Washington",
+            "startDate":"June 2022",
+            "endDate":"September 2022",
+            "details":[
+                "Designed and developed new features with Android, Kotlin, and App Action to let transporters provide feedback to a mobile device with their voice while driving.",
+                "Used Google Assistant plugin to test App Actions on a test device and performed unit test for event builder.",
+                "Presented and demoed case studies and solutions for the organization."],
+            "skills":["Android","Kotlin"]
+        },
+        "job2":{
+            "title":"Software Engineer",
+            "company":"International Integrated Systems, Inc. (IISI)",
+            "location":"New Taipei City, Taiwan",
+            "startDate":"August 2017",
+            "endDate":"August 2021",
+            "details":[
+                "Programmed using Java and Spring MVC Architecture through Jenkins for deployment.",
+                "Created Responsive Web Design web pages using JavaScript, HTML5, CSS/Bootstrap, AJAX/JQuery.",
+                "Presented the system for the government officers.",
+                "Built RESTful API servers and collaborated with the mobile device development team for developing Android and IOS mobile Application.",
+                "Revamped up to 20 web pages and back-end system.",
+                "Using Postman for Rest API Testing.",
+                "Developed components for maintenance and unified reporting style.",
+                "Involved in generating PDFs using IText and developed test cases using JUnit.",
+                "Solved blockages in the underlying program by troubleshooting, including identifying and overriding problems."],
+            "skills":["Java","SpringBoot"]
+        }
+        
+    }
 }
