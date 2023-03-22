@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../data.json';
-import './Contact.css'
+import './Components.css'
 
 
 function Contact() {

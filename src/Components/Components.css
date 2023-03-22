@@ -1,5 +1,3 @@
-
-
 .name {
     font-size: 40px;
     padding-bottom: 4px;
@@ -12,4 +10,16 @@
 
 .summary {
     padding: 4px 0px 4px 0px ;
+}
+
+.education {
+    padding: 4px 0px 4px 0px ;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.degree {
+    font-weight: bold;
 }

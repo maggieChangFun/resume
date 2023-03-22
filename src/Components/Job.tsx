@@ -1,5 +1,5 @@
 import React from 'react';
-import './Job.css'
+import './Components.css'
 
 function Job(props: {
     title: string;

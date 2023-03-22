@@ -7,6 +7,20 @@
         "email":"maggiechang.w@gmail.com",
         "summary":"Computer Engineering Master’s student with 4 years Full Stack software development industry experience based on Java, Spring boot and JavaScript as well as a solid background in mathematics. "
     },
+    "education":{
+        "MS":{
+            "degree":"M.S. in Electrical and Computer Engineering",
+            "school":"University of Massachusetts",
+            "location":"Amherst, MA",
+            "graduationYear":"December 2022"
+        },
+        "BS":{
+            "degree":"B.S. in Mathematics",
+            "school":"Fu Jen Catholic University",
+            "location":"New Taipei City, Taiwan",
+            "graduationYear":"June 2017"
+        }
+    },
     "experiences":{
         "job1":{
             "title":"Software Engineer Intern",
@@ -38,6 +52,25 @@
                 "Solved blockages in the underlying program by troubleshooting, including identifying and overriding problems."],
             "skills":["Java","SpringBoot"]
         }
-        
+    },
+    "projects":{
+        "project1":{
+            "projectName":"Personal Portfolio Website",
+            "demoLink":"https://github.com/maggieChangFun",
+            "date":"Spring 2023", 
+            "details":[
+                "Developed a personal portfolio website to showcase all my details and projects at one place based on React JS, HTML, and CSS.",
+                "Built an email service using Express and Node.js to receive information from potential employers."
+            ]
+        },
+        "project2":{
+            "projectName":"Elevation-based Navigation",
+            "demoLink":"https://github.com/maggieChangFun",
+            "date":"Fall 2021", 
+            "details":[
+                "Developed a navigation web application that calculates routes based on user’s preference of route elevation based on ReactJS and Python Flask.",
+                "Used Jest and tools that could mock json files to test front end ”renders without crashing” and functionality."
+            ]
+        }
     }
 }
