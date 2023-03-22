@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css'
-import Header from './Containers/Header';
+import Experience from './containers/Experience';
+import Header from './containers/Header';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Header/>
+      <Experience/>
     </div>
   );
 }

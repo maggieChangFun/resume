@@ -1,25 +1,20 @@
 import React from 'react';
-import data from '../data.json'
+import data from '../data.json';
+import './Contact.css'
 
 
 function Contact() {
     return (
-      <div className='App'>
-          <div>{data.name}</div>
-          <div>{data.recentLocation}</div>
-          <div>
-            <div>
-                <a href= {"mailto:"+data.email}>{data.email}</a>
-            </div>
-            <div>
-                <a href={data.githubLink}>{data.githubLink}</a>
-            </div>
-            <div>
-                {data.phobeNumber}
-            </div>
+      <div className=''>
+          <div className='name'>{data.contact.name}</div>
+          <div className='contactInfo'>
+            {data.contact.recentLocation}・
+            <a href= {"mailto:"+data.contact.email}>{data.contact.email}</a>・
+            <a href={data.contact.githubLink}>GitHub</a>・
+            <a href={data.contact.linkedin}>LinkedIn</a>
           </div>
-          <div>
-            {data.summary}
+          <div className='summary'>
+            {data.contact.summary}
           </div>
       </div>
     );
