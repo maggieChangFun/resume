@@ -1,4 +1,5 @@
 import React from 'react';
+import './Components.css'
 
 function Project(props: {
     projectName: string;
@@ -9,7 +10,7 @@ function Project(props: {
     return (
         <div className=''>
             <div>
-                <span className=''>{props.projectName}</span>・
+                <span className='projectName'>{props.projectName}</span>・
                 <span><a href={props.demoLink}>Demo</a></span>・
                 <span>{props.date}</span>
             </div>
