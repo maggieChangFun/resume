@@ -1,3 +1,3 @@
 Maggie Chang's Resume [In Progress]
 
-Skills: Typescript, React
+Skills: TypeScript, React
