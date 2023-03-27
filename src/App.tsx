@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ThemeMode from './components/ThemeMode';
 import Educations from './containers/Educations';
 import Experience from './containers/Experience';
 import Header from './containers/Header';
@@ -12,6 +13,7 @@ function App() {
       <Experience/>
       <Projects/>
       <Educations/>
+      <ThemeMode theme={'light'} />
     </div>
   );
 }
